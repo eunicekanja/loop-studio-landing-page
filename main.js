@@ -6,5 +6,6 @@ const header=document.querySelector('.head')
 bars.addEventListener('click',function(){
     navLinks.classList.toggle('style');
     header.classList.toggle('header-show');
-    bars.classList.toggle('rotate')
+    bars.classList.toggle('rotate');
+    document.body.classList.toggle('overflow')
 })

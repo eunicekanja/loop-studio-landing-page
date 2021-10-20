@@ -207,6 +207,9 @@ img{
     display: none;
     
 }
+.overflow{
+    overflow-y: hidden;
+}
 .header-show{
     background: black;
 }
